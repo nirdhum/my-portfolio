@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #525FE1;
+    --white: #FFF;
+    --black: #030303;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -12,5 +21,67 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0 2rem;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.4rem 10rem;
+    background: var(--black);
+    color: var(--white);
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+}
+
+.nav-opt {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.nav-opt a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-opt a:hover {
+    color: var(--primary);
+}
+
+main {
+    padding: 2.4rem 5rem;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero-text h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-size: 1.8rem;
+}
+
+.hero-img {
+    width: 30%;
 }
