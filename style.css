@@ -111,6 +111,43 @@ main {
     font-weight: 800;
     color: var(--primary);
     letter-spacing: 1px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid var(--primary);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--primary);
+    }
 }
 
 .hero-text p {
@@ -302,7 +339,57 @@ main {
     font-size: 1.4rem;
 }
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+.project-img {}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-name {
+    font-size: 1.6rem;
+}
+
+.project-detail {
+    font-size: 1.2rem;
+}
+
+.project-btn {
+    background: var(--primary);
+    width: fit-content;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    color: var(--white);
+    border-radius: 5px;
+}
+
 footer {
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
