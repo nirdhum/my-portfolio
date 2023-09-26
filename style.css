@@ -76,7 +76,7 @@ a {
 }
 
 .cv:hover {
-    background: var(--black);
+    color: var(--black);
 }
 
 .nav-opt a:hover {
@@ -153,12 +153,20 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    background: var(--primary);
+    color: var(--white);
+    width: 100vw;
+    padding: 5rem 0;
 }
 
 .subheading {
     font-size: 3.2rem;
     font-weight: 700;
     color: var(--primary);
+}
+
+.about .subheading {
+    color: var(--white);
 }
 
 .about p {
@@ -173,20 +181,35 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 20%;
+    gap: 1rem;
     padding: 1.6rem 0;
     border-radius: 5px;
-    color: var(--white);
-    background: var(--primary);
+    color: var(--primary);
+    background: var(--white);
     cursor: pointer;
 }
 
 .resume i {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .resume p {
     font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.skill-tool {
+    display: flex;
+    justify-content: space-between;
 }
 
 .experience {
