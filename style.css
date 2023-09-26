@@ -301,3 +301,14 @@ main {
 .time-frame {
     font-size: 1.4rem;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary);
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 5rem 0;
+    gap: 1rem;
+}
