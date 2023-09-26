@@ -76,7 +76,7 @@ a {
 }
 
 .cv:hover {
-    color: var(--black);
+    background: var(--black);
 }
 
 .nav-opt a:hover {
