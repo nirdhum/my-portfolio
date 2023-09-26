@@ -209,7 +209,32 @@ main {
 
 .skill-tool {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill_tool {
+    display: flex;
+    gap: 2rem;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    align-items: center;
+}
+
+.skill_tool-name {
+    font-size: 1.8rem;
+    color: var(--primary);
+    font-weight: 600;
+    padding: 0 0 0 2rem;
+}
+
+.skill_tool-proficiency {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    background: var(--primary);
+    color: var(--white);
+    padding: 1rem 2rem;
 }
 
 .experience {
