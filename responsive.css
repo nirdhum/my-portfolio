@@ -242,3 +242,126 @@
         padding: 0 10rem;
     }
 }
+
+@media screen and (max-width:956px) {
+    .resume {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .resume {
+        width: 30.5%;
+    }
+
+    .experience-list {
+        padding: 0 9rem;
+    }
+}
+
+@media screen and (max-width:924px) {
+    .resume {
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:909px) {
+    .resume {
+        width: 31.5%;
+    }
+
+    .experience-list {
+        padding: 0 7rem;
+    }
+
+    .about p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:895px) {
+    .resume {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:825px) {
+    .resume {
+        width: 34.5%;
+    }
+
+    .num {
+        font-size: 7rem;
+    }
+
+    .hero-img {
+        width: 50%;
+    }
+
+    .about p {
+        font-size: 1.6rem;
+        width: 80%;
+    }
+
+    .experiences:nth-child(4) .num {
+        font-size: 7rem;
+    }
+
+    .experiences:nth-child(4) .experience-detail .position {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    .hero-text h1 {
+        font-size: 3.6rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .socials {
+        font-size: 2.8rem;
+    }
+
+    .hero-img {
+        width: 50%;
+    }
+
+    .resume {
+        width: 37%;
+    }
+
+    .experience-list {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .hero-text h1 {
+        font-size: 3.6rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .socials {
+        font-size: 2.8rem;
+    }
+
+    .hero-img {
+        width: 50%;
+    }
+
+    .resume {
+        width: 37%;
+    }
+
+    .experience-list {
+        padding: 0 5rem;
+    }
+}
