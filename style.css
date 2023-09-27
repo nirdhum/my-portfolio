@@ -311,7 +311,7 @@ main {
 .experiences {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border: 2px solid var(--primary);
     padding: 1rem 0;
