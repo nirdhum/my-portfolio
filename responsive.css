@@ -41,3 +41,68 @@
         display: none;
     }
 }
+
+/* ----------------------------------------*/
+
+@media screen and (max-width:1600px) {
+    .resume {
+        width: 21%;
+    }
+
+    .experiences:nth-child(4) .experience-detail .position {
+        font-size: 1.8rem;
+    }
+
+    .experiences:nth-child(4) .num {
+        font-size: 8.8rem;
+    }
+}
+
+@media screen and (max-width:1536px) {
+    .resume {
+        width: 21.5%;
+    }
+}
+
+@media screen and (max-width:1502px) {
+    .resume {
+        width: 22%;
+    }
+}
+
+@media screen and (max-width:1468px) {
+    .resume {
+        width: 23%;
+    }
+}
+
+@media screen and (max-width:1411px) {
+    .about p {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width:1366px) {
+
+    .nav-opt a,
+    .nav-opt .cv {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:1280px) {
+
+    .nav-opt a,
+    .nav-opt .cv {
+        font-size: 1.2rem;
+    }
+
+    .experiences:nth-child(4) .experience-detail .position {
+        font-size: 1.8rem;
+        max-width: 80%;
+    }
+
+    /* .experiences:nth-child(4) p.num {
+        font-size: 8rem;
+    } */
+}
