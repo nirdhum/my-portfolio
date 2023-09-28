@@ -599,6 +599,10 @@
 
 @media screen and (max-width:341px) {
 
+    header {
+        padding: 2.8rem 2rem;
+    }
+
     main {
         gap: 3rem;
         padding: 1rem 3rem;
