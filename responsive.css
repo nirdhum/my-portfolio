@@ -502,6 +502,10 @@
 
 @media screen and (max-width:430px) {
 
+    header {
+        padding: 2.8rem 2.5rem;
+    }
+
     main {
         gap: 3rem;
     }
@@ -544,6 +548,10 @@
 }
 
 @media screen and (max-width:391px) {
+
+    header {
+        padding: 2.8rem 2.2rem;
+    }
 
     main {
         gap: 3rem;
