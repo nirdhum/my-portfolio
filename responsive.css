@@ -378,13 +378,16 @@
         /* display: none; */
     }
 
+    .project-list {
+        width: 80%;
+    }
+
     .project {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 2rem;
-        width: 90%;
+        padding: 4rem 2rem;
     }
 
     .project-img {
@@ -547,10 +550,6 @@
         font-size: 1.4rem;
     }
 
-    .project {
-        width: 90%;
-    }
-
     .project-img {
         width: 50%;
     }
@@ -597,10 +596,6 @@
 
     .skill_tool-name {
         font-size: 1.4rem;
-    }
-
-    .project {
-        width: 95%;
     }
 }
 
@@ -676,9 +671,5 @@
 
     .company {
         font-size: 1.4rem;
-    }
-
-    .project {
-        width: 100%;
     }
 }
