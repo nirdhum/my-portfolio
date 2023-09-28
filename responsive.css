@@ -603,6 +603,10 @@
     .resume p {
         font-size: 1.4rem;
     }
+
+    .hero-img {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width:341px) {
