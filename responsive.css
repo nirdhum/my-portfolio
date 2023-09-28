@@ -468,12 +468,20 @@
 
 @media screen and (max-width:495px) {
 
+    header {
+        padding: 2.8rem 2.5rem;
+    }
+
     .resume {
         width: 50%;
     }
 }
 
 @media screen and (max-width:460px) {
+
+    header {
+        padding: 2.8rem 2.5rem;
+    }
 
     .hero-text h1 {
         font-size: 2.4rem;
