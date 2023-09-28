@@ -384,6 +384,7 @@
         align-items: center;
         text-align: center;
         padding: 2rem;
+        width: 90%;
     }
 
     .project-img {
