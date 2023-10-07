@@ -1,192 +1,41 @@
+/* Index */
 /* ----------------------------------------*/
 
-@media screen and (max-width:1600px) {
-    .resume {
-        width: 21%;
-    }
+@media screen and (max-width:1350px) {
 
-    .experiences:nth-child(4) .experience-detail .position {
-        font-size: 1.8rem;
-    }
-
-    .experiences:nth-child(4) .num {
-        font-size: 8.8rem;
-    }
-}
-
-@media screen and (max-width:1536px) {
-    .resume {
-        width: 21.5%;
-    }
-}
-
-@media screen and (max-width:1502px) {
-    .resume {
-        width: 22%;
-    }
-}
-
-@media screen and (max-width:1468px) {
-    .resume {
-        width: 23%;
-    }
-}
-
-@media screen and (max-width:1411px) {
-    .about p {
-        width: 63%;
-    }
-}
-
-@media screen and (max-width:1366px) {
-
-    .nav-opt a,
+    /* .nav-opt a,
     .nav-opt .cv {
-        font-size: 1.4rem;
-    }
-}
-
-@media screen and (max-width:1280px) {
-
-    .nav-opt a,
-    .nav-opt .cv {
-        font-size: 1.2rem;
-    }
-
-    .experiences:nth-child(4) .experience-detail .position {
         font-size: 1.8rem;
-        max-width: 80%;
-    }
-
-    .experience-list {
-        padding: 0 20rem;
-    }
-
-    /* .experiences:nth-child(4) p.num {
-        font-size: 8rem;
     } */
-}
 
-@media screen and (max-width:1225px) {
-    .resume {
-        width: 23.5%;
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .project-details {
+        padding: 0 7rem;
     }
 }
 
-@media screen and (max-width:1205px) {
-    .resume {
-        width: 24%;
-    }
-}
+@media screen and (max-width:1030px) {
 
-@media screen and (max-width:1175px) {
-    .resume {
-        width: 24.5%;
+    .project-details {
+        padding: 0 6rem;
     }
 
-    .experience-list {
-        padding: 0 18rem;
-    }
-
-    .nav-opt {
-        gap: 2rem;
-    }
-
-    .hero-img {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width:1151px) {
-    .logo {
-        font-size: 2.4rem;
-    }
-
-    .resume {
-        width: 25%;
-    }
-}
-
-@media screen and (max-width:1128px) {
-    .resume {
-        width: 25.5%;
-    }
-
-    .experience-list {
-        padding: 0 16rem;
-    }
-}
-
-@media screen and (max-width:1105px) {
-    .resume {
-        width: 26%;
-    }
-}
-
-@media screen and (max-width:1085px) {
-    .resume {
-        width: 26.5%;
-    }
-
-    .experience-list {
-        padding: 0 14rem;
-    }
-}
-
-@media screen and (max-width:1065px) {
-    .resume {
-        width: 27%;
-    }
-
-    .experience-list {
-        padding: 0 13rem;
-    }
-}
-
-@media screen and (max-width:1045px) {
-    .resume {
-        width: 27.5%;
-    }
-
-    .experience-list {
-        padding: 0 12rem;
-    }
-}
-
-@media screen and (max-width:1025px) {
-    header {
-        padding: 2.8rem 8rem;
-    }
-
-    .resume {
-        width: 28%;
-    }
-
-    .nav-opt {
-        gap: 1.6rem;
-    }
-}
-
-@media screen and (max-width:1008px) {
-    .resume {
-        width: 28.5%;
-    }
-
-    .experience-list {
-        padding: 0 11rem;
-    }
-}
-
-@media screen and (max-width:990px) {
-    .resume {
-        width: 29%;
+    .project-btn {
+        font-size: 1.3rem;
     }
 }
 
 @media screen and (max-width: 980px) {
 
     header {
-        padding: 2.8rem 5rem;
+        padding: 3.2rem 5rem;
+    }
+
+    footer {
+        padding: 6rem 5rem;
     }
 
     .mobile-navbar-btn {
@@ -203,18 +52,21 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: var(--primary);
+        background: var(--white);
         transform: translateX(100%);
-        transition: all 0.5s linear;
+        transition: all 0.3s linear;
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
-        gap: 2rem;
+        gap: 4rem;
     }
 
-    .nav-opt a,
+    .nav-opt a {
+        font-size: 3.2rem;
+    }
+
     .nav-opt .cv {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     header.active .nav-opt {
