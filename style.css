@@ -160,7 +160,7 @@ main {
     color: var(--primary);
     letter-spacing: 2px;
     overflow: hidden;
-    width: 85%;
+    width: 85vw;
     line-height: 1.4;
     font-family: 'Montserrat', 'Albert Sans', sans-serif;
 }
@@ -191,7 +191,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
-    width: 80%;
+    width: 70%;
 }
 
 .project-name {
@@ -201,7 +201,7 @@ main {
 
 .project-description {
     font-size: 1.6rem;
-    width: 80%;
+    width: 90%;
 }
 
 .project-btn {
