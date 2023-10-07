@@ -65,8 +65,9 @@
         font-size: 3.2rem;
     }
 
-    .nav-opt .cv {
+    .nav-opt .contact {
         font-size: 1.8rem;
+        padding: 1.6rem 4rem;
     }
 
     header.active .nav-opt {
@@ -85,443 +86,192 @@
     }
 }
 
-@media screen and (max-width:972px) {
-    .resume {
-        width: 29.5%;
-    }
-
-    .experience-list {
-        padding: 0 10rem;
-    }
-}
-
-@media screen and (max-width:956px) {
-    .resume {
-        width: 30%;
-    }
-}
-
-@media screen and (max-width:940px) {
-    .resume {
-        width: 30.5%;
-    }
-
-    .experience-list {
-        padding: 0 9rem;
-    }
-}
-
-@media screen and (max-width:924px) {
-    .resume {
-        width: 31%;
-    }
-}
-
-@media screen and (max-width:909px) {
-    .resume {
-        width: 31.5%;
-    }
-
-    .experience-list {
-        padding: 0 7rem;
-    }
-
-    .about p {
-        font-size: 1.6rem;
-    }
-}
-
-@media screen and (max-width:895px) {
-    .resume {
-        width: 32%;
-    }
-}
-
-@media screen and (max-width:825px) {
-    .resume {
-        width: 34.5%;
-    }
-
-    .num {
-        font-size: 7rem;
-    }
-
-    .hero-img {
-        width: 50%;
-    }
-
-    .about p {
-        font-size: 1.6rem;
-        width: 80%;
-    }
-
-    .experiences:nth-child(4) .num {
-        font-size: 7rem;
-    }
-
-    .experiences:nth-child(4) .experience-detail .position {
-        font-size: 1.6rem;
-    }
-}
-
 @media screen and (max-width:770px) {
 
-    .hero-text h1 {
+    .hero h1 {
         font-size: 3.6rem;
+        width: 90vw;
     }
 
-    .hero-text h2 {
-        font-size: 1.8rem;
+    .project-details {
+        padding: 0 4.8rem;
     }
 
-    .socials {
-        font-size: 2.8rem;
-    }
-
-    .hero-img {
-        width: 50%;
-    }
-
-    .resume {
-        width: 37%;
-    }
-
-    .experience-list {
-        padding: 0 5rem;
-    }
-}
-
-@media screen and (max-width:600px) {
-
-    .hero-text h1 {
+    .project-name {
         font-size: 3.2rem;
     }
-
-    .hero-text h2 {
-        font-size: 1.8rem;
-    }
-
-    .socials {
-        font-size: 2.8rem;
-    }
-
-    .hero-img {
-        width: 55%;
-    }
-
-    .resume {
-        width: 42%;
-    }
-
-    .experience-list {
-        padding: 0 5rem;
-    }
-
-    .experiences {
-        flex-direction: column;
-        padding: 2rem;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .exp-img {
-        width: 50%;
-        /* display: none; */
-    }
-
-    .project-list {
-        width: 80%;
-    }
-
-    .project {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 4rem 2rem;
-    }
-
-    .project-img {
-        width: 40%;
-    }
-
-    .project-description {
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-    }
 }
 
-@media screen and (max-width:560px) {
-
-    .hero-text h1 {
-        font-size: 3rem;
-    }
-
-    .hero-text h2 {
-        font-size: 1.8rem;
-    }
-
-    .socials {
-        font-size: 2.8rem;
-    }
-
-    .hero-img {
-        width: 55%;
-    }
-
-    .resume {
-        width: 44%;
-    }
-}
-
-@media screen and (max-width:530px) {
-
-    .hero-text h1 {
-        font-size: 2.8rem;
-    }
-
-    .hero-text h2 {
-        font-size: 1.8rem;
-    }
-
-    .socials {
-        font-size: 2.8rem;
-    }
-
-    .hero-img {
-        width: 55%;
-    }
-
-    .resume {
-        width: 44%;
-    }
-}
-
-@media screen and (max-width:505px) {
-
-    .hero-text h1 {
-        font-size: 2.6rem;
-    }
-
-    .hero-text h2 {
-        font-size: 1.8rem;
-    }
-
-    .socials {
-        font-size: 2.8rem;
-    }
-
-    .hero-img {
-        width: 55%;
-    }
-
-    .resume {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width:495px) {
+@media screen and (max-width:640px) {
 
     header {
-        padding: 2.8rem 2.5rem;
-    }
-
-    .resume {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:460px) {
-
-    header {
-        padding: 2.8rem 2.5rem;
-    }
-
-    .hero-text h1 {
-        font-size: 2.4rem;
-    }
-
-    .hero-text h2 {
-        font-size: 1.8rem;
-    }
-
-    .socials {
-        font-size: 2.8rem;
-    }
-
-    .hero-img {
-        width: 70%;
-    }
-
-    .resume {
-        width: 52%;
-    }
-
-    .skill_tool-name {
-        font-size: 1.4rem;
-    }
-}
-
-@media screen and (max-width:430px) {
-
-    header {
-        padding: 2.8rem 2.5rem;
+        padding: 3.2rem 4rem;
     }
 
     main {
-        gap: 3rem;
+        gap: 6rem;
+        margin-top: 15rem;
     }
 
-    .hero {
-        gap: 3rem;
+    .hero h1 {
+        font-size: 3.6rem;
+        width: 90vw;
     }
 
-    .hero-text h1 {
-        font-size: 2.2rem;
-    }
-
-    .hero-text h2 {
-        font-size: 1.4rem;
-    }
-
-    .socials {
-        font-size: 2.2rem;
-    }
-
-    .hero-img {
-        width: 70%;
-    }
-
-    .resume {
-        width: 55%;
-    }
-
-    .skill_tool-name {
-        font-size: 1.4rem;
-    }
-
-    .project-img {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:391px) {
-
-    header {
-        padding: 2.8rem 2.2rem;
-    }
-
-    main {
-        gap: 3rem;
-    }
-
-    .hero {
-        gap: 3rem;
-    }
-
-    .hero-text {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-text h1 {
-        font-size: 2rem;
-    }
-
-    .hero-text h2 {
-        font-size: 1.4rem;
-    }
-
-    .socials {
-        font-size: 2.2rem;
-    }
-
-    .hero-img {
+    .details {
+        gap: 1.8rem;
         width: 65%;
     }
 
-    .resume {
-        width: 58%;
+    .project-details {
+        padding: 0 4.4rem;
     }
 
-    .skill_tool-name {
-        font-size: 1.4rem;
-    }
-}
-
-@media screen and (max-width:376px) {
-    .resume {
-        width: 60%;
+    .project-name {
+        font-size: 3rem;
     }
 
-    .resume p {
-        font-size: 1.4rem;
-    }
-
-    .hero-img {
-        width: 80%;
+    footer {
+        flex-direction: column;
+        gap: 2.8rem;
+        padding: 5rem 0;
     }
 }
 
-@media screen and (max-width:341px) {
+@media screen and (max-width:545px) {
+
+    .hero h1 {
+        font-size: 3.4rem;
+    }
+
+    .details {
+        gap: 1.6rem;
+        width: 100%;
+    }
+
+    .project-details {
+        flex-direction: column;
+        padding: 0 4rem;
+        gap: 2.8rem;
+        align-items: flex-start;
+    }
+
+    .project-name {
+        font-size: 2.8rem;
+    }
+
+    .project-description {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    main {
+        gap: 5rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .project-details {
+        padding: 0 3.6rem;
+    }
+
+    .project-name {
+        font-size: 2.8rem;
+    }
+
+    .nav-opt a {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width:440px) {
 
     header {
-        padding: 2.8rem 2rem;
+        padding: 3.2rem 3.2rem;
     }
 
     main {
-        gap: 3rem;
-        padding: 1rem 3rem;
+        gap: 3.6rem;
+        margin-top: 13rem;
     }
 
-    .hero {
-        gap: 3rem;
+    .hero h1 {
+        font-size: 2.8rem;
     }
 
-    .hero-text {
-        justify-content: center;
-        align-items: center;
+    .project-details {
+        padding: 0 3.6rem;
     }
 
-    .hero-text h1 {
-        font-size: 1.8rem;
+    .project-name {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+
+    header {
+        padding: 3.2rem 3rem;
     }
 
-    .hero-text h2 {
-        font-size: 1.8rem;
+    .logo {
+        font-size: 2.4rem;
     }
 
-    .socials {
+    main {
+        gap: 3.2rem;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+        letter-spacing: 2.8px;
+    }
+
+    .project-details {
+        padding: 0 3rem;
+        line-height: 1.5;
+    }
+
+    .project-name {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width:325px) {
+
+    header {
+        padding: 3.2rem 2.4rem;
+    }
+
+    .logo {
+        font-size: 2.4rem;
+    }
+
+    main {
+        gap: 3.2rem;
+        margin-top: 12rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        letter-spacing: 2.8px;
+    }
+
+    .project-details {
+        padding: 0 2.4rem;
+        line-height: 1.5;
+    }
+
+    .project-name {
         font-size: 2rem;
     }
 
-    .hero-img {
-        width: 80%;
-    }
-
-    .resume {
-        width: 68%;
-    }
-
-    .resume p {
+    .project-description {
         font-size: 1.4rem;
     }
 
-    .skill_tool-name {
-        font-size: 1.4rem;
-    }
-
-    .experiences {
-        padding: 2rem 1rem;
-    }
-
-    .position {
-        font-size: 1.6rem;
-    }
-
-    .company {
-        font-size: 1.4rem;
-    }
 }
