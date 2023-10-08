@@ -230,7 +230,7 @@
 @media screen and (max-width:440px) {
 
     header {
-        padding: 3.2rem 3.2rem;
+        padding: 3.2rem 3rem;
     }
 
     main {
@@ -258,7 +258,7 @@
 @media screen and (max-width:380px) {
 
     header {
-        padding: 3.2rem 3rem;
+        padding: 3.2rem 2.4rem;
     }
 
     .logo {
@@ -291,7 +291,7 @@
 @media screen and (max-width:325px) {
 
     header {
-        padding: 3.2rem 2.4rem;
+        padding: 3.2rem 2.2rem;
     }
 
     .logo {
