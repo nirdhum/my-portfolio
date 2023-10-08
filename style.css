@@ -30,6 +30,8 @@ body {
     overflow-x: hidden;
 }
 
+/* Header */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -133,6 +135,48 @@ a:focus {
     display: none;
 }
 
+/* Footer */
+footer {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary);
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 8rem 8rem;
+    gap: 1rem;
+}
+
+.foot-logo {
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 1.4px;
+    font-family: 'Montserrat', 'Albert Sans', sans-serif;
+}
+
+.socials {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.8rem;
+}
+
+.socials a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 0.5s ease-in-out;
+    border: 1px solid var(--primary);
+    padding: 0.7rem 1rem;
+    background: var(--white);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.socials a:hover {
+    scale: 0.9;
+    background: var(--black);
+    color: var(--white);
+}
+
 main {
     padding: 1rem 5rem;
     display: flex;
@@ -143,6 +187,7 @@ main {
     margin-top: 18rem;
 }
 
+/* Index Page */
 /* Hero */
 
 .hero {
@@ -229,47 +274,57 @@ main {
     background: var(--primary);
 }
 
+/* About Page */
+/* Hero */
 
-
-
-/* Footer */
-footer {
-    margin-top: 5rem;
+.about {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: var(--primary);
-    color: var(--white);
-    font-size: 1.8rem;
-    padding: 8rem 8rem;
-    gap: 1rem;
+    align-items: flex-start;
+    width: 90vw;
+    padding: 2rem 0;
 }
 
-.foot-logo {
-    font-weight: 500;
-    font-size: 1.8rem;
-    letter-spacing: 1.4px;
+.about h1 {
+    font-size: 5.6rem;
+    font-weight: 400;
+    color: var(--primary);
+    letter-spacing: 2px;
+    overflow: hidden;
+    width: 55vw;
+    line-height: 1.4;
     font-family: 'Montserrat', 'Albert Sans', sans-serif;
 }
 
-.socials {
+.about-description {
     display: flex;
+    flex-direction: column;
     gap: 2rem;
+}
+
+.about-me {
     font-size: 1.8rem;
 }
 
-.socials a {
-    text-decoration: none;
-    color: var(--primary);
-    transition: all 0.5s ease-in-out;
-    border: 1px solid var(--primary);
-    padding: 0.7rem 1rem;
-    background: var(--white);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+.about-description hr {
+    height: 2px;
+    background: var(--primary);
+    border: none;
 }
 
-.socials a:hover {
-    scale: 0.9;
-    background: var(--black);
-    color: var(--white);
+.about-description-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    line-height: 1.4;
+}
+
+.client-list {
+    padding-left: 2rem;
+    list-style-type: square;
+}
+
+.client-list li {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
