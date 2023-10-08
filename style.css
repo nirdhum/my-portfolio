@@ -155,12 +155,12 @@ main {
 }
 
 .hero h1 {
-    font-size: 4.2rem;
+    font-size: 5.6rem;
     font-weight: 400;
     color: var(--primary);
     letter-spacing: 2px;
     overflow: hidden;
-    width: 85vw;
+    width: 55vw;
     line-height: 1.4;
     font-family: 'Montserrat', 'Albert Sans', sans-serif;
 }
