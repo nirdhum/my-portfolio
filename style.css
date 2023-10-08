@@ -20,6 +20,12 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 body {
@@ -80,7 +86,6 @@ a:focus {
     font-weight: 400;
     transition: all 0.3s ease-in-out;
     padding: .5rem;
-
 }
 
 .nav-opt .contact {
@@ -119,7 +124,8 @@ a:focus {
 }
 
 .nav-opt a:not(:nth-last-child(1)):hover {
-    box-shadow: 0 1px 2px -2px var(--white);
+    /* box-shadow: 0 1px 0px 0px var(--primary); */
+    color: var(--primary);
 }
 
 .mobile-navbar-btn {
