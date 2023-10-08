@@ -34,6 +34,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background: var(--white);
 }
 
 /* Header */
@@ -70,7 +71,7 @@ a:focus {
 
 .logo:visited,
 .logo:focus {
-    color: initial;
+    color: var(--black);
 }
 
 .nav-opt {
@@ -139,6 +140,37 @@ a:focus {
 
 .mobile-navbar-btn i:nth-child(2) {
     display: none;
+}
+
+#checkbox {
+    visibility: hidden;
+    display: none;
+    cursor: pointer;
+}
+
+.toggle-label {
+    width: 6rem;
+    height: 3rem;
+    background: var(--black);
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-ball {
+    width: 2.2rem;
+    height: 2.2rem;
+    background: var(--white);
+    display: inline-block;
+    position: absolute;
+    top: .4rem;
+    left: .4rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#checkbox:checked+.toggle-label .toggle-ball {
+    transform: translateX(3rem);
 }
 
 /* Footer */
@@ -213,7 +245,12 @@ main {
     overflow: hidden;
     width: 55vw;
     line-height: 1.4;
+    font-family: 'Albert Sans', 'Montserrat', sans-serif;
+}
+
+.hero strong {
     font-family: 'Montserrat', 'Albert Sans', sans-serif;
+    font-weight: 600;
 }
 
 /* Work */
@@ -254,11 +291,13 @@ main {
 .project-name {
     font-size: 3.6rem;
     font-weight: 500;
+    color: var(--black);
 }
 
 .project-description {
     font-size: 1.6rem;
     width: 90%;
+    color: var(--black);
 }
 
 .project-btn {
@@ -306,6 +345,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    color: var(--black);
 }
 
 .about-me {
