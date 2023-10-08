@@ -167,6 +167,12 @@ main {
 
 /* Work */
 
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+}
+
 .project {
     display: flex;
     flex-direction: column;

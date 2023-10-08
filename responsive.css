@@ -6,12 +6,20 @@
     .hero h1 {
         width: 80vw;
     }
+
+    .work {
+        gap: 12rem;
+    }
 }
 
 @media screen and (max-width:1445px) {
 
     .hero h1 {
         width: 80vw;
+    }
+
+    .work {
+        gap: 10rem;
     }
 }
 
@@ -29,6 +37,10 @@
 
     .project-details {
         padding: 0 7rem;
+    }
+
+    .work {
+        gap: 8rem;
     }
 }
 
@@ -167,6 +179,10 @@
         font-size: 3.4rem;
     }
 
+    .work {
+        gap: 7rem;
+    }
+
     .details {
         gap: 1.6rem;
         width: 100%;
@@ -226,6 +242,10 @@
         font-size: 2.8rem;
     }
 
+    .work {
+        gap: 6rem;
+    }
+
     .project-details {
         padding: 0 3.6rem;
     }
@@ -252,6 +272,10 @@
     .hero h1 {
         font-size: 2.4rem;
         letter-spacing: 2.8px;
+    }
+
+    .work {
+        gap: 5rem;
     }
 
     .project-details {
