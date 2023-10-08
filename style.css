@@ -8,6 +8,14 @@
     --light: #FFF0F5;
 }
 
+.darkmode {
+    --primary: #cbcff6;
+    --white: #1B2430;
+    --black: #FFF;
+    --dark: #FFF0F5;
+    --light: #16213E;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;

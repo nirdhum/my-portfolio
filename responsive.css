@@ -52,7 +52,6 @@
 
     .about h1 {
         font-size: 4.2rem;
-        width: 65vw;
     }
 
     .about-me {
@@ -142,6 +141,21 @@
     }
 }
 
+@media screen and (max-width:900px) {
+
+    .about h1 {
+        font-size: 3.8rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    .about h1 {
+        font-size: 3.6rem;
+        width: 80vw;
+    }
+}
+
 @media screen and (max-width:770px) {
 
     .hero h1 {
@@ -171,7 +185,15 @@
     }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:730px) {
+
+    .about h1 {
+        font-size: 3.4rem;
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width:660px) {
 
     header {
         padding: 3.2rem 4rem;
