@@ -14,22 +14,28 @@ mobile_nav.addEventListener('click', () => toggleNav())
 
 nav_opt.addEventListener('click', () => toggleNav())
 
-const toogle_btn = document.getElementById('checkbox')
-const root = document.querySelector(':root')
+// Dark Mode
 
-toogle_btn.addEventListener('change', () => {
-    if (toogle_btn.checked) {
-        root.style.setProperty('--primary', '#cbcff6')
-        root.style.setProperty('--white', '#1B2430')
-        root.style.setProperty('--black', '#FFF')
-        root.style.setProperty('--dark', '#FFF0F5')
-        root.style.setProperty('--light', '#16213E')
+let darkMode = localStorage.getItem('darkMode')
+
+const toogle_btn = document.querySelector('.toggle-btn')
+
+toogle_btn.addEventListener('click', () => {
+
+    darkMode = localStorage.getItem('darkMode')
+    console.log(darkMode)
+    console.log('------')
+
+    if (darkMode !== 'enabled') {
+        toogle_btn.innerHTML = `<i class="fa-solid fa-moon"></i>`
+        document.body.classList.add('darkmode')
+        localStorage.setItem('darkMode', 'enabled')
+        console.log(darkMode);
     }
     else {
-        root.style.setProperty('--primary', '#525FE1')
-        root.style.setProperty('--white', '#FFF')
-        root.style.setProperty('--black', '#1B2430')
-        root.style.setProperty('--dark', '#16213E')
-        root.style.setProperty('--light', '#FFF0F5')
+        toogle_btn.innerHTML = `<i class="fa-solid fa-sun"></i>`
+        document.body.classList.remove('darkmode')
+        localStorage.setItem('darkMode', null)
+        console.log(darkMode);
     }
 })

@@ -150,35 +150,15 @@ a:focus {
     display: none;
 }
 
-#checkbox {
-    visibility: hidden;
-    display: none;
+.toggle-btn {
+    border: 2px solid var(--black);
     cursor: pointer;
 }
 
-.toggle-label {
-    width: 6rem;
-    height: 3rem;
-    background: var(--black);
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-}
-
-.toggle-ball {
-    width: 2.2rem;
-    height: 2.2rem;
-    background: var(--white);
-    display: inline-block;
-    position: absolute;
-    top: .4rem;
-    left: .4rem;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-#checkbox:checked+.toggle-label .toggle-ball {
-    transform: translateX(3rem);
+.toggle-btn i {
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem;
 }
 
 /* Footer */
