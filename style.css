@@ -16,6 +16,16 @@
     --light: #16213E;
 }
 
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --primary: #cbcff6;
+        --white: #1B2430;
+        --black: #FFF;
+        --dark: #FFF0F5;
+        --light: #16213E;
+    }
+} */
+
 * {
     box-sizing: border-box;
     margin: 0;

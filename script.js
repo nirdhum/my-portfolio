@@ -20,22 +20,32 @@ let darkMode = localStorage.getItem('darkMode')
 
 const toogle_btn = document.querySelector('.toggle-btn')
 
+const enableDarkMode = () => {
+    toogle_btn.innerHTML = `<i class="fa-solid fa-sun"></i>`
+    document.body.classList.add('darkmode')
+    localStorage.setItem('darkMode', 'enabled')
+}
+
+const disableDarkMode = () => {
+    toogle_btn.innerHTML = `<i class="fa-solid fa-moon"></i>`
+    document.body.classList.remove('darkmode')
+    localStorage.setItem('darkMode', null)
+}
+
+if (darkMode === 'enabled') {
+    enableDarkMode()
+}
+
 toogle_btn.addEventListener('click', () => {
 
     darkMode = localStorage.getItem('darkMode')
-    console.log(darkMode)
-    console.log('------')
 
     if (darkMode !== 'enabled') {
-        toogle_btn.innerHTML = `<i class="fa-solid fa-moon"></i>`
-        document.body.classList.add('darkmode')
-        localStorage.setItem('darkMode', 'enabled')
+        enableDarkMode()
         console.log(darkMode);
     }
     else {
-        toogle_btn.innerHTML = `<i class="fa-solid fa-sun"></i>`
-        document.body.classList.remove('darkmode')
-        localStorage.setItem('darkMode', null)
+        disableDarkMode()
         console.log(darkMode);
     }
 })
