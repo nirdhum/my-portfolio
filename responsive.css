@@ -12,6 +12,21 @@
     }
 }
 
+@media screen and (max-width:1510px) {
+
+    .hero h1 {
+        width: 80vw;
+    }
+
+    .work {
+        gap: 10rem;
+    }
+
+    .about h1 {
+        font-size: 4.6rem;
+    }
+}
+
 @media screen and (max-width:1445px) {
 
     .hero h1 {
@@ -41,10 +56,6 @@
 
     .work {
         gap: 8rem;
-    }
-
-    .about h1 {
-        font-size: 4.8rem;
     }
 }
 

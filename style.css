@@ -132,7 +132,7 @@ a:focus {
     background: var(--primary);
 }
 
-.nav-opt a:not(:nth-last-child(1)):hover {
+.nav-opt a:not(:nth-last-child(2)):hover {
     /* box-shadow: 0 1px 0px 0px var(--primary); */
     color: var(--primary);
 }
