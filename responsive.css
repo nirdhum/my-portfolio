@@ -104,6 +104,10 @@
         width: 70vw;
     }
 
+    .contact-details h1 {
+        font-size: 5rem;
+    }
+
     .mobile-navbar-btn {
         display: block;
         position: relative;
@@ -201,6 +205,15 @@
     .about h1 {
         font-size: 3.4rem;
         width: 85vw;
+    }
+
+    .contact-me {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .contact-details {
+        width: 90vw;
     }
 }
 
