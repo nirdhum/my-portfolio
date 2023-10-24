@@ -322,6 +322,7 @@ main {
     font-size: 1.6rem;
     width: 90%;
     color: var(--black);
+    line-height: 1.5;
 }
 
 .project-btn {
