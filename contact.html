@@ -41,24 +41,49 @@
 
     <main>
         <section class="contact-me">
-            <h1>Contact</h1>
-            <form class="form">
-                <label>
-                    <input required="" placeholder="" type="text" class="input">
-                    <span>Full name</span>
-                </label>
-                <label>
-                    <input required="" placeholder="" type="email" class="input">
-                    <span>email</span>
-                </label>
-                <label>
-                    <input required="" type="tel" placeholder="" class="input">
-                    <span>Contact number</span>
-                </label>
-                <label>
-                    <textarea required="" rows="3" placeholder="" class="input01"></textarea>
-                    <span>Message</span>
-                </label>
+            <div class="contact-details">
+                <h1>Contact</h1>
+                <p>If you'd like to know more or have a project you'd like to discuss, don't hesitate to reach out.</p>
+                <div class="contact-email">
+                    <p class="email-title">Email</p>
+                    <p>nirdhum.n@gmail.com</p>
+                </div>
+                <div class="socials">
+                    <a href="https://in.linkedin.com/in/nirdhum" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/nirdhum" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://twitter.com/nirdhum" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://medium.com/@nirdhum" target="_blank">
+                        <i class="fa-brands fa-medium"></i>
+                    </a>
+                </div>
+            </div>
+            <form class="form-section">
+                <div class="input-box">
+                    <input type="text" id="name" required>
+                    <label for="name">Full Name (Required)</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="email" required>
+                    <label for="email">Your Email (Required)</label>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="subject" required>
+                    <label for="subject">Subject (Required)</label>
+                </div>
+                <div class="msg-input-box">
+                    <label for="message">Your Message (Required)</label>
+                    <textarea id="message" rows="10" required></textarea>
+                </div>
+                <a href="" class="send-msg">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send
+                </a>
             </form>
         </section>
     </main>
