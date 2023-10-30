@@ -1,3 +1,5 @@
+'use strict'
+
 document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
 
 const mobile_nav = document.querySelector('.mobile-navbar-btn')
