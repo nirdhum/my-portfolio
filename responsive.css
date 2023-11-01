@@ -36,6 +36,14 @@
     .work {
         gap: 10rem;
     }
+
+    .under-upgrade {
+        gap: 1rem;
+    }
+
+    .under-upgrade h1 {
+        margin-top: 8rem;
+    }
 }
 
 @media screen and (max-width:1350px) {
@@ -56,6 +64,10 @@
 
     .work {
         gap: 8rem;
+    }
+
+    .under-upgrade img {
+        width: 55vw;
     }
 }
 
@@ -82,6 +94,10 @@
 
     .project-btn {
         font-size: 1.3rem;
+    }
+
+    .under-upgrade img {
+        width: 65vw;
     }
 }
 
@@ -154,6 +170,10 @@
     header.active .mobile-navbar-btn i:nth-child(1) {
         display: none;
     }
+
+    .under-upgrade img {
+        width: 70vw;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -198,6 +218,10 @@
     .project-name {
         font-size: 3.2rem;
     }
+
+    .under-upgrade img {
+        width: 85vw;
+    }
 }
 
 @media screen and (max-width:730px) {
@@ -213,6 +237,15 @@
     }
 
     .contact-details {
+        width: 90vw;
+    }
+
+    .under-upgrade h1 {
+        font-size: 4rem;
+        margin-top: 10rem;
+    }
+
+    .under-upgrade img {
         width: 90vw;
     }
 }
@@ -291,6 +324,15 @@
     .project-description {
         width: 100%;
     }
+
+    .under-upgrade h1 {
+        margin-top: 20rem;
+        text-align: center;
+    }
+
+    .under-upgrade img {
+        width: 95vw;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -313,6 +355,16 @@
 
     .nav-opt a {
         font-size: 2.4rem;
+    }
+
+    .under-upgrade h1 {
+        margin-top: 20rem;
+        text-align: center;
+        font-size: 4.8rem;
+    }
+
+    .under-upgrade img {
+        width: 100vw;
     }
 }
 
@@ -375,6 +427,11 @@
     .project-name {
         font-size: 2.4rem;
     }
+
+    .under-upgrade h1 {
+        margin-top: 25rem;
+        font-size: 4.4rem;
+    }
 }
 
 @media screen and (max-width:325px) {
@@ -408,6 +465,11 @@
 
     .project-description {
         font-size: 1.4rem;
+    }
+
+    .under-upgrade h1 {
+        margin-top: 25rem;
+        font-size: 4.8rem;
     }
 
 }
