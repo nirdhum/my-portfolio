@@ -293,6 +293,10 @@
         gap: 2.8rem;
         padding: 5rem 0;
     }
+
+    .under-upgrade h1 {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:545px) {
