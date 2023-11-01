@@ -256,17 +256,43 @@ footer {
     align-items: center;
     height: 100vh;
     overflow: hidden;
+    gap: 2rem;
 }
 
 .under-upgrade h1 {
-    margin-top: 10rem;
+    margin-top: 5rem;
     font-size: 5rem;
     color: var(--primary);
 }
 
 .under-upgrade h2 {
-    font-size: 2rem;
+    font-size: 2.8rem;
     color: var(--dark);
+}
+
+.under-upgrade a {
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem 3rem;
+}
+
+.bth {
+    background: var(--dark);
+    color: var(--light);
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.bth:hover {
+    background: var(--primary);
+    color: var(--white);
 }
 
 .under-upgrade img {
