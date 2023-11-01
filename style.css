@@ -52,6 +52,12 @@
 
 /* -------------------------- */
 
+/* Custom Cursor */
+
+
+
+/* ------------------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -79,6 +85,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     background: var(--white);
+    cursor: url(assets/cursor-nirdhum.svg), auto;
 }
 
 /* Header */
@@ -208,6 +215,7 @@ footer {
     font-size: 1.8rem;
     padding: 8rem 8rem;
     gap: 1rem;
+    cursor: url(assets/cursor-light-nirdhum.svg), auto;
 }
 
 .foot-logo {
