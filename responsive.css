@@ -10,6 +10,11 @@
     .work {
         gap: 12rem;
     }
+
+    .blog-row {
+        justify-content: space-between;
+        gap: 5rem;
+    }
 }
 
 @media screen and (max-width:1510px) {
@@ -24,6 +29,10 @@
 
     .about h1 {
         font-size: 4.6rem;
+    }
+
+    .article-card {
+        grid-template-columns: 200px minmax(250px, 445px);
     }
 }
 
@@ -43,6 +52,10 @@
 
     .under-upgrade h1 {
         margin-top: 8rem;
+    }
+
+    .article-card {
+        grid-template-columns: 200px minmax(250px, 445px);
     }
 }
 
@@ -98,6 +111,14 @@
 
     .under-upgrade img {
         width: 65vw;
+    }
+
+    .blog-row {
+        flex-direction: column;
+    }
+
+    .article-card {
+        grid-template-columns: 310px minmax(274px, 625px);
     }
 }
 
@@ -222,6 +243,41 @@
     .under-upgrade img {
         width: 85vw;
     }
+
+    .blog-row {
+        flex-direction: row;
+    }
+
+    .article-card {
+        grid-template-columns: 1fr;
+        max-width: 340px;
+        overflow: hidden;
+    }
+
+    .img-box {
+        height: 180px;
+    }
+
+    .article-content {
+        padding: 30px 28px 20px;
+    }
+
+    .article-title {
+        font-size: 15px;
+    }
+
+    .article-text {
+        margin-bottom: 30px;
+    }
+
+    .acticle-content-footer {
+        position: relative;
+    }
+
+    .author-avater {
+        width: 35px;
+        height: 35px;
+    }
 }
 
 @media screen and (max-width:730px) {
@@ -336,6 +392,18 @@
 
     .under-upgrade img {
         width: 95vw;
+    }
+
+    .blog {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
     }
 }
 
