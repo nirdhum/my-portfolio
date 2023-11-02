@@ -118,6 +118,7 @@ a:focus {
     letter-spacing: 1.4px;
     color: var(--black);
     font-family: 'Montserrat', 'Albert Sans', sans-serif;
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 .logo:visited,
@@ -156,6 +157,7 @@ a:focus {
 
 .contact:hover {
     background: var(--primary);
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 .nav-opt .cv {
@@ -178,11 +180,12 @@ a:focus {
 .nav-opt a:not(:nth-last-child(2)):hover {
     /* box-shadow: 0 1px 0px 0px var(--primary); */
     color: var(--primary);
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 .mobile-navbar-btn {
     display: none;
-    cursor: pointer;
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 .mobile-nav-icon {
@@ -195,7 +198,7 @@ a:focus {
 
 .toggle-btn {
     border: 2px solid var(--black);
-    cursor: pointer;
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 .toggle-btn i {
@@ -245,6 +248,7 @@ footer {
     scale: 0.9;
     background: var(--black);
     color: var(--white);
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 /* Under Upgrade */
@@ -293,6 +297,7 @@ footer {
 .bth:hover {
     background: var(--primary);
     color: var(--white);
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 .under-upgrade img {
@@ -402,6 +407,7 @@ main {
 
 .project-btn:hover {
     background: var(--primary);
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 /* About Page */
@@ -586,6 +592,7 @@ input:valid {
     color: var(--white);
     border: none;
     outline: none;
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 /* Blog page */
@@ -623,6 +630,10 @@ input:valid {
     object-fit: cover;
     object-position: left;
     transition: all 0.5s ease;
+}
+
+.article-card:hover {
+    cursor: url(assets/cursor-hover-nirdhum.svg), auto;
 }
 
 .article-card:hover .article-banner {
