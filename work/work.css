@@ -272,6 +272,12 @@ main {
     justify-content: space-between;
 }
 
+.uc-design-visual {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
 .uc-design-sections {
     display: flex;
     flex-direction: column;
@@ -420,6 +426,10 @@ main {
     p.project-description-secondary {
         font-size: 1.8rem;
         width: 80%;
+    }
+
+    .uc-design-visual {
+        flex-direction: column;
     }
 
     .sitemap {
