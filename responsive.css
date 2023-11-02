@@ -84,6 +84,20 @@
     }
 }
 
+@media screen and (max-width:1280px) {
+    .blog {
+        padding: 0 10rem;
+    }
+
+    .blog-row {
+        flex-direction: column;
+    }
+
+    .article-card {
+        grid-template-columns: 335px minmax(250px, 550px);
+    }
+}
+
 @media screen and (max-width:1190px) {
 
     .about h1 {
@@ -92,6 +106,10 @@
 
     .about-me {
         line-height: 1.5;
+    }
+
+    .blog {
+        padding: 0 5rem;
     }
 }
 
@@ -111,6 +129,10 @@
 
     .under-upgrade img {
         width: 65vw;
+    }
+
+    .blog {
+        padding: initial;
     }
 
     .blog-row {
