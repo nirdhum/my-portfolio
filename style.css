@@ -770,7 +770,7 @@ input:valid {
     min-width: 28rem;
     max-width: 34rem;
     aspect-ratio: 3/3;
-    background-color: var(--light);
+    background-color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -803,7 +803,8 @@ input:valid {
     height: 100%;
     padding: 2rem;
     box-sizing: border-box;
-    background-color: var(--light);
+    background-color: var(--white);
+    border: 1px solid var(--primary);
     transform: rotateX(-90deg);
     transform-origin: bottom;
     transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
