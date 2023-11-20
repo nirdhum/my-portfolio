@@ -306,6 +306,7 @@
 
     .blog-row {
         flex-direction: row;
+        justify-content: center;
     }
 
     .article-card {
