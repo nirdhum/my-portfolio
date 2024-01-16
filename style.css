@@ -332,7 +332,7 @@ main {
     color: var(--primary);
     letter-spacing: 2px;
     overflow: hidden;
-    width: 55vw;
+    width: 63vw;
     line-height: 1.4;
     font-family: 'Albert Sans', 'Montserrat', sans-serif;
 }
