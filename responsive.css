@@ -1,6 +1,13 @@
 /* Index */
 /* ----------------------------------------*/
 
+/* @media screen and (min-width:1720px) {
+    .project-img {
+        width: 70vw;
+        height: auto;
+    }
+} */
+
 @media screen and (max-width:1720px) {
 
     .hero h1 {
